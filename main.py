@@ -9,7 +9,8 @@ st.set_page_config(page_title="Mapa Interativo", layout="wide")
 #st.markdown("<h1 style='text-align: center; color: #2F4F4F;'>📍 Mapa com Coordenadas</h1>", unsafe_allow_html=True)
 #st.markdown("---")
 
-file_path = r"C:\Users\mathe\Documents\Jobs\Gustavo\app_job_streamlit\data\lat_long.xlsx"
+#file_path = r"C:\Users\mathe\Documents\Jobs\Gustavo\app_job_streamlit\data\lat_long.xlsx"
+file_path = "data/lat_long.xlsx"
 
 if os.path.exists(file_path):
     try:
